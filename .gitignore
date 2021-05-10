@@ -1,6 +1,6 @@
 *.replit
-*.replit
-**/*
+*.class
+#**/*
 !**/*.go
 !**/*.java
 !**/*.dart
@@ -9,4 +9,4 @@
 !**/*.scala
 !**/*.cpp
 !**/*.kt
-"**/
+!**/ git 
