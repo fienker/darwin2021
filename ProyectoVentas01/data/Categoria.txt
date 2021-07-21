@@ -1,1 +1,2 @@
-C1	c1
+C1	p1
+C2	categoria baja

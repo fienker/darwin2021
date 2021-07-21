@@ -15,7 +15,7 @@ public class LeerArchivo {
         String ruta=crearCarpetaRaiz("data").getAbsolutePath();
         CAMINO = Paths.get(ruta+"/"+name);
         crear();
-    }   
+    }    
 
     public static File crearCarpetaRaiz(String nombreCarpeta){
         File newFolder = new File(nombreCarpeta);

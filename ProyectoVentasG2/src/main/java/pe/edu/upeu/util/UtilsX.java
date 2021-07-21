@@ -3,8 +3,6 @@ package pe.edu.upeu.util;
 import java.net.URL;
 import javax.swing.table.TableModel;
 public class UtilsX {
-
-    
     public int fibonaciRecur(final int numero) {
     if (numero < 2) {
     return numero;
@@ -12,13 +10,16 @@ public class UtilsX {
     return fibonaciRecur(numero - 1) + fibonaciRecur(numero - 2);
     }
     }
+
     public URL getFile(String ruta){
     return this.getClass().getResource("/"+ruta);
     }
+
     public TableModel reporData() {
     return null;
     }
-    
+
+
     public final void clearConsole(){
         try{            
             final String os = System.getProperty("os.name");    
@@ -84,7 +85,7 @@ public class UtilsX {
         }
         
     }
-}
+
 	/*
 	    pintarLine('H', 28);
         pintarTextHeadBody('H', 3, "Nombre,Apellidos,dni,celular");
@@ -94,4 +95,4 @@ public class UtilsX {
 	*/	
 
 
-
+}
